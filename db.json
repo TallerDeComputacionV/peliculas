@@ -1,0 +1,17 @@
+{
+    "peliculas" : 
+    [
+        {
+            "titulo" : "Batman",
+            "genero" : "Accion",
+            "imagen" : "https://www.unilad.co.uk/wp-content/uploads/2016/02/bdax36su2nbecapijz3l.jpg",
+            "lanzamiento" : "17/07/2008",
+            "duracion" : "152",
+            "artistas" : ["Christian Bale", "Heath Ledger", "Aaron Eckhart", "Michael Caine", 
+                            "Maggie Gyllenhaal", "Gary Oldman", "Morgan Freeman"],
+            "puntuacion" : "8.2"
+        }
+
+    ]
+}
+
