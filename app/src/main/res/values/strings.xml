@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Peliculas</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="action_favorite">Agregar a favoritos</string>
 </resources>
