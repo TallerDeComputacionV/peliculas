@@ -9,7 +9,7 @@
         android:scaleType="centerCrop"
         android:id="@+id/imagen"/>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -21,15 +21,19 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/genero"
             android:id="@+id/titulo"/>
 
         <TextView
-            android:layout_gravity="right"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="italic"
             android:textSize="16sp"
             android:id="@+id/genero"/>
-    </LinearLayout>
+    </RelativeLayout>
 
 </LinearLayout>
