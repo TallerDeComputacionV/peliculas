@@ -25,9 +25,10 @@
         android:paddingLeft="4dp"
         android:paddingRight="8dp">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -40,10 +41,11 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:id="@+id/titulo"/>
-        </RelativeLayout>
-        <RelativeLayout
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:orientation="horizontal"
             android:padding="2dp">
             <TextView
                 android:layout_width="wrap_content"
@@ -57,10 +59,11 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:id="@+id/genero"/>
-        </RelativeLayout>
-        <RelativeLayout
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:orientation="horizontal"
             android:padding="2dp">
             <TextView
                 android:layout_width="wrap_content"
@@ -74,11 +77,12 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:id="@+id/lanzamiento"/>
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="2dp">
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -91,10 +95,11 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:id="@+id/duracion"/>
-        </RelativeLayout>
-        <RelativeLayout
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:orientation="horizontal"
             android:padding="2dp">
             <TextView
                 android:layout_width="wrap_content"
@@ -108,10 +113,11 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:id="@+id/artistas_principales"/>
-        </RelativeLayout>
-        <RelativeLayout
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:orientation="horizontal"
             android:padding="2dp">
             <TextView
                 android:layout_width="wrap_content"
@@ -125,8 +131,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:id="@+id/puntuacion"/>
-        </RelativeLayout>
-
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

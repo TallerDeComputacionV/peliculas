@@ -11,15 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListaPeliculasActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".view.ListaPeliculasActivity"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
+        <activity android:name=".view.LoginActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".PeliculaDetailsActivity"/>
+        <activity android:name=".view.PeliculaDetailsActivity"/>
+        <activity android:name=".view.VerPeliculaActivity"/>
     </application>
 
 </manifest>

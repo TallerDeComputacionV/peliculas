@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Peliculas</string>
-    <string name="action_settings">Configuracion</string>
+    <string name="action_settings">Cerrar sesion</string>
     <string name="action_favorite">Agregar a favoritos</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="contacto">Contacto</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

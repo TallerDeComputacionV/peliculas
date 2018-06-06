@@ -49,13 +49,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
@@ -63,6 +56,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
@@ -88,6 +88,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
@@ -112,24 +113,42 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\Peliculas\app\libs\okhttp-3.0.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-media-compat-26.1.0" level="project" />
-    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\glide-4.6.0.aar\9e70de74e5b63eaee7a02a0c982087f4:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-compat-26.1.0" level="project" />
-    <orderEntry type="library" name="android.arch.lifecycle:common:1.0.0@jar" level="project" />
-    <orderEntry type="library" name="android.arch.core:common:1.0.0@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-fragment-26.1.0" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\Peliculas\app\libs\okio-1.10.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-vector-drawable-26.1.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-v4-26.1.0" level="project" />
-    <orderEntry type="library" name="android.arch.lifecycle:runtime-1.0.0" level="project" />
-    <orderEntry type="library" name="com.android.support:appcompat-v7-26.1.0" level="project" />
-    <orderEntry type="library" name="com.android.support:animated-vector-drawable-26.1.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-annotations:26.1.0@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\Peliculas\app\libs\retrofit-2.4.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-core-utils-26.1.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-core-ui-26.1.0" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\Peliculas\app\libs\gson-2.6.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\Peliculas\app\libs\converter-gson-2.4.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\292f52425f49a4c2ec882e9ecbf230a7:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\1ee197d8dac2141d92301f77621b371a:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\android-support\logback-classic-1.1.2.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\5333066bef5b940cdafcd8662121bd23:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\a2cd52a344656fd59ac18a747c94f463:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\faae0997ccea36a8cdd5d7c2a980cd2f:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\cf817d8ac3b68e9025070b7b63e41fb0:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\android-support\common-1.0.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\android-support\slf4j-api-1.7.6.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\9f164f0476ce8037564d9b7f003cc28e:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\android-support\common-1.1.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\704e2c63db98c78968e1f3543c7ff62e:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\glide-3.8.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\android-support\logback-core-1.1.2.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\okhttp-3.0.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\30d210f4b2a46153339288aed0ea086d:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\android-support\support-annotations-26.1.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\android-support\common-java8-1.1.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4fb6fe18f779a56c1d2bb363020f6721:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\retrofit-2.4.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\reactivestreams-1.1.1.aar\c726d09eedfa001ec43c3b9ddbce77c3:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\android-support\constraint-layout-solver-1.1.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3a73e50c4577b736d26d1abecc09c6b2:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\converter-gson-2.4.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\android-support\reactive-streams-1.0.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\c565692d2db85b16771d505cc39132da:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\9a312b90b597a3e5ad4def455f1fa736:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\fc64133c33d9b2f26be280e4c3318871:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\palette-v7-26.1.0.aar\661944941129bf4e4b9a4f124c6d6700:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\27df661148fc4bd2f564760802553cd2:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\916d7f1213deca8add342176c4baeaa5:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\AndroidYouTubePlayer-7.0.0.aar\f5e8ca4a5406987c8c0712dfba4bd6ec:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\okio-1.10.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7016e3f62198499ed71e707adc28ee11:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\d45558a82f618a56688fa8fb19ca8fc4:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Users\Silver\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\37511eef1d07e56d049f9ef85bb674d0:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:D.\alumnos\da vinci\TCV\clase 10\peliculas\peliculas\app\libs\gson-2.6.jar:unspecified@jar" level="project" />
   </component>
 </module>
