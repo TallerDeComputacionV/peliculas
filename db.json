@@ -1,17 +1,146 @@
 {
-    "peliculas" : 
+    "peliculas" :
     [
         {
-            "id" : "1",
-            "titulo" : "Batman",
-            "genero" : "Accion",
-            "imagen" : "https://www.unilad.co.uk/wp-content/uploads/2016/02/bdax36su2nbecapijz3l.jpg",
-            "lanzamiento" : "17/07/2008",
+            "id": "1",
+            "titulo": "Batman El Caballero De La Noche",
+            "genero": "Accion",
+            "imagen": "2131165277",
+            "lanzamiento": "17/07/2008",
+            "small_img_url" : "https://elfinalde.com/wp-content/uploads/2016/02/hqkIcbrOHL86UncnHIsHVcVmzue-1024x576.jpg",
+            "large_img_url" : "http://www.cultjer.com/img/ug_photo/2013_11/the_dark_knight_original20131105151212.jpg",
+            "artistas": [
+                "Christian Bale",
+                "Heath Ledger",
+                "Aaron Eckhart",
+                "Michael Caine",
+                "Maggie Gyllenhaal",
+                "Gary Oldman",
+                "Morgan Freeman"],
+            "video_url" : "https://www.youtube.com/watch?v=EXeTwQWrcwY&t=82s"
+        },
+        {
+            "id" : "2",
+            "titulo" : "Star Wars El Ultimo Jedi",
+            "genero" : "Ciencia Ficcion",
+            "imagen" : "2131165318",
+            "lanzamiento" : "14/12/2017",
+            "small_img_url" : "http://media.gizmodo.co.uk/wp-content/uploads/2018/03/ku6bwrrv2kdk3kku3fyr.jpg",
+            "large_img_url" : "https://zhaikeimgvdo.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2017/12/p2504093296.jpg",
             "duracion" : "152",
-            "artistas" : ["Christian Bale", "Heath Ledger", "Aaron Eckhart", "Michael Caine", 
-                            "Maggie Gyllenhaal", "Gary Oldman", "Morgan Freeman"],
-            "puntuacion" : "8.2"
+            "artistas" : [
+                "Mark Hamill",
+                "Carrie Fisher",
+                "Adam Driver",
+                "Daisy Ridley",
+                "John Boyega",
+                "Oscar Isaac",
+                "Andy Serkis",
+                "Lupita Nyong'o",
+                "Domhnall Gleeson",
+                "Anthony Daniels"],
+            "video_url" : "https://www.youtube.com/watch?v=Q0CbN8sfihY"
+        },
+        {
+            "id" : "3",
+            "titulo" : "Pantera Negra",
+            "genero" : "Aventura",
+            "imagen" : "2131165278",
+            "lanzamiento" : "16/02/2018",
+            "small_img_url" : "https://04.imgmini.eastday.com/mobile/20180503/20180503060516_7f2c9e072fc8207323fc7d99f70e9899_1.jpeg",
+            "large_img_url" : "https://pbs.twimg.com/media/DdQ7Vg4VAAAXPvD.jpg",
+            "duracion" : "134",
+            "artistas" : [
+                "Chadwick Boseman",
+                "Michael B. Jordan",
+                "Lupita Nyong'o",
+                "Danai Gurira",
+                "Martin Freeman",
+                "Daniel Kaluuya",
+                "Letitia Wright"],
+            "video_url" : "https://www.youtube.com/watch?v=xjDjIWPwcPU"
         }
-
+    ],
+    "categorias" : [
+        {
+            "id": "1",
+            "titulo": "Para el nerd que llevas dentro",
+            "peliculas" :
+            [
+                {
+                    "id" : "2",
+                    "titulo" : "Star Wars El Ultimo Jedi",
+                    "genero" : "Ciencia Ficcion",
+                    "imagen" : "2131165318",
+                    "lanzamiento" : "14/12/2017",
+                    "small_img_url" : "http://media.gizmodo.co.uk/wp-content/uploads/2018/03/ku6bwrrv2kdk3kku3fyr.jpg",
+                    "large_img_url" : "https://zhaikeimgvdo.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2017/12/p2504093296.jpg",
+                    "duracion" : "152",
+                    "artistas" : [
+                        "Mark Hamill",
+                        "Carrie Fisher",
+                        "Adam Driver",
+                        "Daisy Ridley",
+                        "John Boyega",
+                        "Oscar Isaac",
+                        "Andy Serkis",
+                        "Lupita Nyong'o",
+                        "Domhnall Gleeson",
+                        "Anthony Daniels"],
+                    "video_url" : "https://www.youtube.com/watch?v=Q0CbN8sfihY"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "titulo": "Ganas de romper cosas",
+            "peliculas" :
+            [
+                {
+                    "id": "1",
+                    "titulo": "Batman El Caballero De La Noche",
+                    "genero": "Accion",
+                    "imagen": "2131165277",
+                    "lanzamiento": "17/07/2008",
+                    "small_img_url" : "https://elfinalde.com/wp-content/uploads/2016/02/hqkIcbrOHL86UncnHIsHVcVmzue-1024x576.jpg",
+                    "large_img_url" : "http://www.cultjer.com/img/ug_photo/2013_11/the_dark_knight_original20131105151212.jpg",
+                    "artistas": [
+                        "Christian Bale",
+                        "Heath Ledger",
+                        "Aaron Eckhart",
+                        "Michael Caine",
+                        "Maggie Gyllenhaal",
+                        "Gary Oldman",
+                        "Morgan Freeman"],
+                    "video_url" : "https://www.youtube.com/watch?v=EXeTwQWrcwY&t=82s"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "titulo": "Black Power",
+            "peliculas" :
+            [
+                {
+                    "id" : "3",
+                    "titulo" : "Pantera Negra",
+                    "genero" : "Aventura",
+                    "imagen" : "2131165278",
+                    "lanzamiento" : "16/02/2018",
+                    "small_img_url" : "https://04.imgmini.eastday.com/mobile/20180503/20180503060516_7f2c9e072fc8207323fc7d99f70e9899_1.jpeg",
+                    "large_img_url" : "https://pbs.twimg.com/media/DdQ7Vg4VAAAXPvD.jpg",
+                    "duracion" : "134",
+                    "artistas" : [
+                        "Chadwick Boseman",
+                        "Michael B. Jordan",
+                        "Lupita Nyong'o",
+                        "Danai Gurira",
+                        "Martin Freeman",
+                        "Daniel Kaluuya",
+                        "Letitia Wright"],
+                    "video_url" : "https://www.youtube.com/watch?v=xjDjIWPwcPU"
+                }
+            ]
+        }
     ]
 }
